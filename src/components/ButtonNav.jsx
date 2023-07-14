@@ -1,8 +1,10 @@
-const ButtonNav = ({textInfoNav}) =>{
+const ButtonNav = ({ textInfoNav, iconLink }) => {
 
-    return(
-        <button className="bg-white bg-opacity-30 hover:bg-opacity-100 rounded-xl text-lg p-2">{textInfoNav}</button>
+    return (
+        <div className="flex gap-3 shadow-lg hover:shadow-none p-1 rounded-xl">
+
+        </div>
     )
 }
 
-export default  ButtonNav;
+export default ButtonNav;

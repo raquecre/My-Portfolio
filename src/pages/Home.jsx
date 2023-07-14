@@ -1,15 +1,15 @@
 import AboutMe from "../components/AboutMe";
 import Navbar from "../components/Navbar";
+import Portfolio from "./PortFolio";
 
-const Home = () => {
-
+const Home = (props) => {
 
     return (
         <body className="bg-gradient-to-r from-blue-300 to-purple-300">
-
-                <Navbar/>
+                
             <div className="p-20">
-                <AboutMe />
+                <AboutMe/>
+                <Portfolio />
             </div>
 
         </body>
