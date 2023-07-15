@@ -14,7 +14,7 @@ const CardPorfolio = (props) => {
                         <h1 className="font-bold text-xl"> {nameProyect}</h1>
                         <p className="text-sm">{descriptionProyect}</p>
                     </div>
-                    <div className="w-2/4 pt-3 flex items-center justify-between">
+                    <div className="w-2/4 pt-3 flex items-center justify-between z-10">
                         <img src={urlImageProyect} />
 
                     </div>

@@ -23,7 +23,7 @@ const AboutMe = () => {
             <SocialNetworks/>
 
             <div className="flex gap-10 m-10">
-                <ButtonLink directionlink="/" textshowLink= "Contacto"></ButtonLink>
+                <ButtonLink directionlink="/Contact" textshowLink= "Sobre mí"></ButtonLink>
                 <ButtonLink directionlink="/" textshowLink="Mi Tabajo"></ButtonLink>
             </div>
 

@@ -2,7 +2,7 @@ import AboutMe from "../components/AboutMe";
 import ButtonLink from "../components/ButtonLink";
 import CardPorfolio from "../components/CardPorfolio";
 import Navbar from "../components/Navbar";
-import TitleCards from "./TitleCards";
+import TitleCards from "../components/TitleCards";
 
 const Home = (props) => {
     const pokedexImage = 'https://www.mundodeportivo.com/alfabeta/hero/2019/09/pokemon-pokedex-pikachu.jpg?width=1200&aspect_ratio=16:9';
