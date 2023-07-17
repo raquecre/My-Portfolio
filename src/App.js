@@ -7,8 +7,7 @@ import ContactMe from "./pages/ContactMe";
 
 function App() {
   return (
-    <div className="App">
-
+    <div className="App ">
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/MyCv' element={<MyCV />} />

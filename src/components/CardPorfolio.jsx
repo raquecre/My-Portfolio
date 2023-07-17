@@ -6,9 +6,9 @@ const CardPorfolio = (props) => {
 
     return (
 
-        <div className="bg-white bg-opacity-50 shadow-lg rounded-lg flex flex-col justify-between m-3" >
+        <div className="max-w-2xl bg-white bg-opacity-70 shadow-lg rounded-lg flex flex-col justify-between m-3" >
 
-            <div className="flex">
+            <div className="flex ">
                 <div className="flex  ">
                     <div className="flex flex-col p-3">
                         <h1 className="font-bold text-xl"> {nameProyect}</h1>

@@ -10,7 +10,7 @@ const ContactMe = () => {
         <div className="bg-gradient-to-r from-blue-400 to-purple-400">
             <Navbar/>
             <TitleCards titleCards='Hablemos:' />
-            <div className=" flex flex-col bg-white bg-opacity-50 shadow-lg rounded-lg grid grid-cols-3 p-5 gap-6 items-center justify-items-center">
+            <div className="max-w-2xl m-5 flex flex-col bg-white bg-opacity-50 shadow-lg rounded-lg grid grid-cols-3 p-5 gap-6 items-center justify-items-center">
                 <ContactForm typeLabel='email' textPlaceholder='introduce tu email' titleLabel='Email' />
                 <ContactForm typeLabel='text' textPlaceholder='nombre' titleLabel='Nombre ' />
 
