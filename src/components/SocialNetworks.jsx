@@ -10,7 +10,7 @@ const SocialNetworks = () => {
             <div className="LINKEDIN  hover:text-blue-600 hover:italic flex text-blue-800 ml-8 gap-3 items-center">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
+                    className="h-5 w-5"
                     fill="currentColor"
                     viewBox="0 0 24 24">
                     <path

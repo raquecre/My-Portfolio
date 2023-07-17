@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import ErrorPage from "./pages/ErrorPage";
 import MyCV from "./pages/MyCv";
 import ContactMe from "./pages/ContactMe";
+import AllProyects from "./pages/AllProyects";
 
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
         <Route path='/MyCv' element={<MyCV />} />
         <Route path='*' element={<ErrorPage />} />
         <Route path='/ContactMe' element={<ContactMe />} />
+        <Route path='/AllProyects' element={<AllProyects/>} />
+
 
       </Routes>
 

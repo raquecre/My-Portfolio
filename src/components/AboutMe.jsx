@@ -7,7 +7,7 @@ const AboutMe = () => {
 
 
     return (
-        <div className="max-w-2xl bg-white bg-opacity-70 shadow-lg rounded" >
+        <div className="max-w-3xl bg-white bg-opacity-70 shadow-lg rounded" >
                <Navbar/>
             <div className="flex ml-5  justify-between">
              

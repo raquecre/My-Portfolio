@@ -1,12 +1,19 @@
-const ErrorPage = () =>{
+import Transitions from "../components/Transitions";
+
+const ErrorPage = () => {
 
 
-    return(
-        <div>
-            error page
-        </div>
+    return (
+        <>
+            <Transitions>
+                <div>
+                    error page
+                </div>
+
+            </Transitions>
+        </>
     )
 }
 
 
-export default  ErrorPage;
+export default ErrorPage;
