@@ -8,22 +8,29 @@ const ContactMe = () => {
 
 
     return (
-        <>
+        <div className="bg-gradient-to-r from-blue-400 to-purple-400">
 
-            <div className="bg-gradient-to-r from-blue-400 to-purple-400">
+            <div className="flex flex-col items-center" >
 
                 <Navbar />
                 <Transitions>
-                    <TitleCards titleCards='Hablemos:' />
-                    <div className="max-w-2xl m-5 flex flex-col bg-white bg-opacity-50 shadow-lg rounded-lg grid grid-cols-3 p-5 gap-6 items-center justify-items-center">
+                    <TitleCards titleCards='Contacto:' />
+                    <div className="max-w-4xl m-5 flex flex-col bg-white bg-opacity-50 shadow-lg rounded-lg p-5 gap-6 items-center justify-items-center">
                         <ContactForm typeLabel='email' textPlaceholder='introduce tu email' titleLabel='Email' />
                         <ContactForm typeLabel='text' textPlaceholder='nombre' titleLabel='Nombre ' />
+                        <div>
+                            <label className="Tu mensaje"></label>
+                            <textarea placeholder="Tu mensaje va aquí"></textarea>
+                        </div>
+
+
+
 
 
                     </div>
                 </Transitions >
             </div>
-        </>
+        </div>
     )
 }
 

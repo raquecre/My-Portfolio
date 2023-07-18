@@ -7,9 +7,9 @@ const AboutMe = () => {
 
 
     return (
-        <div className="max-w-3xl bg-white bg-opacity-70 shadow-lg rounded" >
+        <div className="max-w-5xl bg-white bg-opacity-90 shadow-lg rounded" >
                <Navbar/>
-            <div className="flex ml-5  justify-between">
+            <div className="flex   justify-around">
              
                 <div className="flex flex-col justify-center ">
                     <h1 className=" text-sm pt-5">Hola, soy Raquel</h1>
@@ -24,8 +24,8 @@ const AboutMe = () => {
             <SocialNetworks/>
 
             <div className="flex gap-10 m-10">
+                <ButtonLink directionlink="/Portfolio" textshowLink="Portfolio"></ButtonLink>
                 <ButtonLink directionlink="/MyCv" textshowLink= "Sobre mí"></ButtonLink>
-                <ButtonLink directionlink="/" textshowLink="Mi Tabajo"></ButtonLink>
             </div>
 
         </div>

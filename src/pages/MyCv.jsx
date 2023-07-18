@@ -8,8 +8,8 @@ const MyCV = () => {
 
     /* urlImageProyect="" */
     return (
-        <>
-            <div className="bg-gradient-to-r from-blue-400 to-purple-400">
+        <div className="bg-gradient-to-r from-blue-400 to-purple-400">
+            <div className="flex flex-col items-center" >
                 <Navbar />
                 <Transitions>
                     <TitleCards titleCards="Sobre mí" />
@@ -21,7 +21,7 @@ const MyCV = () => {
             </div>
 
 
-        </>
+        </div>
     )
 }
 
