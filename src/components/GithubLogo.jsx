@@ -6,7 +6,7 @@ const GithubLogo = ({ nameProyect,urlgithub }) => {
     return (
         <div className=" flex ">
             <Link to={urlgithub} target="_blank">
-                <div className="GitHub flex text-gray-950  hover:text-blue-600 hover:italic  ml-8 gap-3 items-center">
+                <div className="GitHub flex text-gray-950  hover:text-blue-600 hover:italic m-1 gap-3 items-center">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-7 w-7"

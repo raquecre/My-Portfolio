@@ -2,6 +2,7 @@ import CardPorfolio from "../components/CardPorfolio"
 import Navbar from "../components/Navbar"
 import TitleCards from "../components/TitleCards"
 import Transitions from "../components/Transitions"
+import Footer from "../components/Footer"
 
 
 const AllProyects = () => {
@@ -34,7 +35,8 @@ const AllProyects = () => {
                     <CardPorfolio nameProyect="Pokedex"
 
                         urlgithub="https://github.com/raquecre/react-context-ex3-Pokeapi"
-                        descriptionProyect=""
+                        descriptionProyect="Proyecto realizado en React más boostrap para añadir todo el CSS.
+                        Se trata de un listado de pokemon, en los cuales, puedes añadirlos a un 'pokecart', así como eliminarlos del mismo."
                         urlImageProyect="https://i.imgur.com/kBz7hrg.png" />
 
                     <CardPorfolio nameProyect="Lista de países"
@@ -57,7 +59,7 @@ const AllProyects = () => {
                         urlImageProyect="https://i.imgur.com/FfCV8cQ.png"
                         urlgithub="https://github.com/raquecre/raSabana" />
 
-
+                <Footer/>
 
                 </Transitions>
             </div>

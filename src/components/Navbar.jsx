@@ -7,7 +7,7 @@ const Navbar = () => {
 
 
     return (
-        <div className=" max-w-5xl font-semibold text-gray-700 flex justify-end gap-20 pt-8 p-2">
+        <div className=" max-w-5xl font-semibold text-gray-700 flex justify-end gap-20 pt-5 p-2 mr-6">
             <Link to='/' >
                 <div className="flex gap-3 p-1  hover:text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400 rounded-xl">
                     {/*  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">

@@ -1,4 +1,5 @@
 import ContactForm from "../components/ContactFormText";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import TitleCards from "../components/TitleCards";
 import Transitions from "../components/Transitions";
@@ -22,12 +23,8 @@ const ContactMe = () => {
                             <label className="Tu mensaje"></label>
                             <textarea placeholder="Tu mensaje va aquí"></textarea>
                         </div>
-
-
-
-
-
                     </div>
+                    <Footer/>
                 </Transitions >
             </div>
         </div>
