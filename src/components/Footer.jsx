@@ -10,12 +10,12 @@ const Footer = () => {
 
             <>
                 <div className="flex items-center gap-4">
-                    <img className="w-2/4" src="https://i.imgur.com/XBmRQbx.png" />
+                    <img className="w-1/4" src="https://i.imgur.com/XBmRQbx.png" />
                     <p  className="text-sm">Accede a mi CV</p>
                 </div>
 
                 <div className="flex items-center gap-4">
-                    <img className="w-2/4" src="https://i.imgur.com/ovuBIY5.png" />
+                    <img className="w-1/4" src="https://i.imgur.com/ovuBIY5.png" />
                     <p className="text-sm">Encuentrame en linkedin</p>
                 </div>
             </>
