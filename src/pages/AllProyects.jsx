@@ -27,8 +27,10 @@ const AllProyects = () => {
 
                     <CardPorfolio nameProyect=" Café de altura"
 
-                        descriptionProyect="Proyecto de comercio electrónico realizado con React.
-                    Los datos se extraían de una Api creada por nosotros mismos."
+                        descriptionProyect="Proyecto de comercio electrónico realizado con React. Se proporcionó un modelo en Figma.
+                         Los datos de los productos están alojados en una Api creada por mí. 
+                         Cada uno de las Card son un componente distinto. 
+                         Dentro de los cafés seleccionados podemos tanto añadirlos como quitarlos."
                         urlImageProyect="https://i.imgur.com/3NmfrZK.png"
                         urlgithub="https://github.com/raquecre/React-Cafe-Altura" />
 
@@ -36,7 +38,8 @@ const AllProyects = () => {
 
                         urlgithub="https://github.com/raquecre/react-context-ex3-Pokeapi"
                         descriptionProyect="Proyecto realizado en React más boostrap para añadir todo el CSS.
-                        Se trata de un listado de pokemon, en los cuales, puedes añadirlos a un 'pokecart', así como eliminarlos del mismo."
+                        Se trata de un listado de pokemon, en los cuales, puedes añadirlos a un 'pokecart', así como eliminarlos del mismo.
+                        Es decir, sigue el protocolo de una página de comercio electrónico."
                         urlImageProyect="https://i.imgur.com/kBz7hrg.png" />
 
                     <CardPorfolio nameProyect="Lista de países"
@@ -50,14 +53,15 @@ const AllProyects = () => {
                     <CardPorfolio nameProyect="Proyecto Rutas"
 
                         descriptionProyect=" Proyecto inicial para familiarizarse con el uso de react 
-                    y las distintas formas de comunicación entre los componentes"
+                    y las distintas formas de comunicación entre los componentes.
+                    En cada página existe un ejercicio distinto donde aparecen distintas comunicaciones entre los componentes."
                         urlImageProyect="https://i.imgur.com/IEG4soE.png"
                         urlgithub="https://github.com/raquecre/all-mini-exs" />
 
-                    <CardPorfolio nameProyect="La Sabana"
+                   {/*  <CardPorfolio nameProyect="La Sabana"
                         descriptionProyect="Primer proyecto para familiarizarse con html y CSS"
                         urlImageProyect="https://i.imgur.com/FfCV8cQ.png"
-                        urlgithub="https://github.com/raquecre/raSabana" />
+                        urlgithub="https://github.com/raquecre/raSabana" /> */}
 
                 <Footer/>
 

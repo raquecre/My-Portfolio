@@ -5,9 +5,9 @@ const SocialNetworks = () => {
 
 
     return (
-        <div className=" flex opacity-60 hover:opacity-100 ml-20 ">
+        <div className=" flex opacity-60 hover:opacity-100 ml-20 gap-10">
 
-            <div className="LINKEDIN  hover:text-blue-600 hover:italic flex text-blue-800 ml-8 gap-3 items-center">
+            <div className="LINKEDIN hover:text-blue-600 hover:italic flex justify-start items-center text-gray-800 ml-8 gap-3">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-5 w-5"

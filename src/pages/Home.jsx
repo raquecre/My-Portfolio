@@ -4,6 +4,7 @@ import CardPorfolio from "../components/CardPorfolio";
 import Footer from "../components/Footer";
 import MiniPorfolio from "../components/MiniPortfolio";
 import Navbar from "../components/Navbar";
+import PersonComents from "../components/PersonCOmments";
 import Questions from "../components/Questions";
 import TitleCards from "../components/TitleCards";
 import Transitions from "../components/Transitions";
@@ -14,14 +15,16 @@ const Home = (props) => {
     return (
 
         <div className="p-5 bg-gradient-to-r from-blue-400 to-purple-400">
-            <Transitions>
-                <div className="p-20 flex flex-col items-center">
-                    <AboutMe />
+
+            <div className="p-20 flex flex-col items-center">
+                <AboutMe />
+                <Transitions>
                     <Questions />
                     <MiniPorfolio />
+                    <PersonComents/>
                     <Footer />
-                </div>
-            </Transitions >
+                </Transitions >
+            </div>
 
         </div>
 

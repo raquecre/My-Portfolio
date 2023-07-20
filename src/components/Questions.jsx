@@ -7,7 +7,7 @@ const Questions = () => {
     return (
         <>
             <TitleCards titleCards="Qué hago" />
-            <div className="grid grid-cols-3 justify-items-center mt-5 mb-10 max-w-5xl" >
+            <div className="grid grid-cols-3 justify-items-center mt-5 mb-10 w-[900px]" >
                 {/* meco */}
 
                 <QuestionsCard titleIconQuestions={<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-20 h-20">

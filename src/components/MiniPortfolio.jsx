@@ -6,7 +6,7 @@ const MiniPorfolio = () => {
 
 
     return (
-        <div>
+        <div className="flex flex-col justify-center items-center">
             <TitleCards titleCards="Portfolio" />
 
             <CardPorfolio

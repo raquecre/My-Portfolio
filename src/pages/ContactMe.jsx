@@ -9,19 +9,19 @@ const ContactMe = () => {
 
 
     return (
-        <div className="bg-gradient-to-r from-blue-400 to-purple-400">
+        <div className="w-[800px] p-10 bg-gradient-to-r from-blue-400 to-purple-400">
 
             <div className="flex flex-col items-center" >
 
                 <Navbar />
                 <Transitions>
                     <TitleCards titleCards='Contacto:' />
-                    <div className="max-w-4xl m-5 flex flex-col bg-white bg-opacity-50 shadow-lg rounded-lg p-5 gap-6 items-center justify-items-center">
+                    <div className="w-[800px] m-5 flex flex-col bg-white bg-opacity-50 shadow-lg rounded-lg p-5 gap-6 items-center justify-items-center">
                         <ContactForm typeLabel='email' textPlaceholder='introduce tu email' titleLabel='Email' />
                         <ContactForm typeLabel='text' textPlaceholder='nombre' titleLabel='Nombre ' />
                         <div>
                             <label className="Tu mensaje"></label>
-                            <textarea placeholder="Tu mensaje va aquí"></textarea>
+                            <textarea placeholder="Cuéntame tu propuesta"></textarea>
                         </div>
                     </div>
                     <Footer/>

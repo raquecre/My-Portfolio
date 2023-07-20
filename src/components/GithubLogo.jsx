@@ -9,7 +9,7 @@ const GithubLogo = ({ nameProyect,urlgithub }) => {
                 <div className="GitHub flex text-gray-950  hover:text-blue-600 hover:italic m-1 gap-3 items-center">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="h-7 w-7"
+                        className="h-5 w-5"
                         fill="currentColor"
                         viewBox="0 0 24 24">
                         <path

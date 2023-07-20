@@ -6,36 +6,33 @@ const CardPorfolio = (props) => {
 
     return (
 
-        <div className="max-w-4xl min-w-sm bg-white bg-opacity-80 shadow-lg rounded-2xl pl-8 pr-8 pt-5 m-3" >
+        <div className="w-[800px] min-w-sm bg-white bg-opacity-80 shadow-lg rounded-2xl  p-10 mt-3 mb-8" >
 
             <div className="grid grid-cols-2 items-center justify-items-center  ">
-                <div className=" p-3 text-justify">
+                <div className=" p-3 ">
                     <h1 className="font-bold pb-4 text-xl"> {nameProyect}</h1>
-                    <p className="text-sm text-justify pt-2">{descriptionProyect}</p>
+                    <p className="text-xs  pr-5">{descriptionProyect}</p>
 
                     <div className="flex gap-8">
 
-                        <div className="w-fit hover:underline hover:text-blue-700 hover:italic rounded-3xl bg-gradient-to-r from-blue-400 to-purple-400 mt-8 p-1">
-                            <div className="w-fit flex items-center rounded-3xl bg-white bg-opacity-80 p-1">
+                        <div className="w-fit hover:underline hover:text-blue-700 rounded-lg bg-gradient-to-r from-blue-400 to-purple-400 mt-8 p-1">
+                            <div className="w-fit flex items-center rounded-lg bg-white bg-opacity-80 p-1">
                                 <GithubLogo nameProyect={nameProyect} urlgithub={urlgithub} />
-                                <p className="">Código</p>
                             </div>
                         </div>
-
-                        <div className="w-fit hover:underline hover:text-blue-700 hover:italic rounded-3xl bg-gradient-to-r from-blue-400 to-purple-400 mt-8 p-1">
-                            <div className="w-fit flex items-center rounded-3xl bg-white bg-opacity-80 p-1">
-                                <LinkLogo nameProyect={nameProyect} urlWebProyect={urlWebProyect} />
-
-                                <p className="">Resultado</p>
+                        <div className="w-fit flex hover:underline hover:text-blue-700 hover:italic rounded-lg bg-gradient-to-r from-blue-400 to-purple-400 mt-8 p-1">
+                            <div className="w-fit flex items-center rounded-lg bg-white bg-opacity-80 text-sm p-1">
+                                web
                             </div>
                         </div>
+                                             
                     </div>
 
 
                 </div>
 
-                <div className="m-5 rounded-lg">
-                    <img className="object-none rounded-3xl object-left-top hover:object-scale-down" src={urlImageProyect} />
+                <div className="m-5 h-50 w-50 rounded-lg">
+                    <img className=" object-none rounded-3xl object-left-top hover:object-scale-down" src={urlImageProyect} />
                 </div>
             </div>
 
