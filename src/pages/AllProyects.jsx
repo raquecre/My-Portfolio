@@ -26,7 +26,7 @@ const AllProyects = () => {
                     <TitleCards titleCards="Proyectos Terminados" />
 
                     <CardPorfolio nameProyect=" Café de altura"
-
+                        urlProyect="https://raquecre-cafealtura.netlify.app"
                         descriptionProyect="Proyecto de comercio electrónico realizado con React. Se proporcionó un modelo en Figma.
                          Los datos de los productos están alojados en una Api creada por mí. 
                          Cada uno de las Card son un componente distinto. 
@@ -35,7 +35,7 @@ const AllProyects = () => {
                         urlgithub="https://github.com/raquecre/React-Cafe-Altura" />
 
                     <CardPorfolio nameProyect="Pokedex"
-
+                        urlProyect="https://pokecart-raquecre.netlify.app/"
                         urlgithub="https://github.com/raquecre/react-context-ex3-Pokeapi"
                         descriptionProyect="Proyecto realizado en React más boostrap para añadir todo el CSS.
                         Se trata de un listado de pokemon, en los cuales, puedes añadirlos a un 'pokecart', así como eliminarlos del mismo.
@@ -58,12 +58,12 @@ const AllProyects = () => {
                         urlImageProyect="https://i.imgur.com/IEG4soE.png"
                         urlgithub="https://github.com/raquecre/all-mini-exs" />
 
-                   {/*  <CardPorfolio nameProyect="La Sabana"
+                    {/*  <CardPorfolio nameProyect="La Sabana"
                         descriptionProyect="Primer proyecto para familiarizarse con html y CSS"
                         urlImageProyect="https://i.imgur.com/FfCV8cQ.png"
                         urlgithub="https://github.com/raquecre/raSabana" /> */}
 
-                <Footer/>
+                    <Footer />
 
                 </Transitions>
             </div>
