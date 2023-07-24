@@ -1,7 +1,7 @@
 import CardPersonComents from "./CardPersonComents"
 import TitleCards from "./TitleCards"
 
-const PersonComents = (props) => {
+const PersonComents = () => {
 
     return (
         <div className="w-[800px] flex flex-col  items-start m-5">

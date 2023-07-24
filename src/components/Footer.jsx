@@ -15,7 +15,7 @@ const Footer = () => {
             <a href="mailto:raquecre@gmail.com">
 
                 <div className=" flex gap-1 items-center hover:underline inline-block hover:text-blue-800 font-bold text-transparent bg-gradient-to-r from-blue-400 to-purple-400  bg-clip-text hover:italic hover:underline pl-10 p-3 ">
-                    <svg class="w- h-5"
+                    <svg className="w- h-5"
                         fill="none" stroke="url(#grad1)" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <defs>
                             <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -23,7 +23,7 @@ const Footer = () => {
                                 <stop offset="100%" stopColor="#C084FC" />
                             </linearGradient>
                         </defs>
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                             d="M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 10-2.636 6.364M16.5 12V8.25">
                         </path>
                     </svg>
@@ -40,8 +40,8 @@ const Footer = () => {
                             <Link target="_blank" to={"https://www.canva.com/design/DAFl07J6mKA/rOj3T_dV8VBVGcYpkFRI-A/view?utm_content=DAFl07J6mKA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"}>
                                 <div className="w-fit flex items-center rounded-lg bg-white bg-opacity-90 text-sm p-1 gap-1">
                                     <p>CV</p>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m.75 12l3 3m0 0l3-3m-3 3v-6m-1.5-9H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m.75 12l3 3m0 0l3-3m-3 3v-6m-1.5-9H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
                                     </svg>
                                 </div>
                             </Link>
