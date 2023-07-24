@@ -1,8 +1,9 @@
 
+import { Link } from "react-router-dom";
 import GithubLogo from "./GithubLogo";
 
 const CardPorfolio = (props) => {
-    const { nameProyect, descriptionProyect, urlImageProyect, urlgithub, } = props;
+    const { nameProyect, descriptionProyect, urlImageProyect, urlgithub,urlProyect } = props;
 
     return (
 
@@ -20,20 +21,23 @@ const CardPorfolio = (props) => {
                                 <GithubLogo nameProyect={nameProyect} urlgithub={urlgithub} />
                             </div>
                         </div>
-                        {/* //TODO aquí hay que añadir para poder poner un enlace y que esa info se pase por props */}
-                        <div className="w-fit flex hover:underline hover:text-blue-700 hover:italic rounded-lg bg-gradient-to-r from-blue-400 to-purple-400 mt-8 p-1">
-                            <div className="w-fit flex items-center rounded-lg bg-white bg-opacity-80 text-sm p-1">
-                                web
+                        <Link target="_blank" to={urlProyect}>
+                            <div className="w-fit flex hover:underline hover:text-blue-700 hover:italic rounded-lg bg-gradient-to-r from-blue-400 to-purple-400 mt-8 p-1">
+                                <div className="w-fit flex items-center rounded-lg bg-white bg-opacity-80 text-sm p-1">
+                                    web
+                                </div>
                             </div>
-                        </div>
-                                             
+                        </Link>
+
                     </div>
 
 
                 </div>
 
                 <div className="m-5 h-50 w-50 rounded-lg">
+                <Link target="_blank" to={urlProyect}>
                     <img alt="imageProyect" className=" object-none rounded-3xl object-left-top hover:object-scale-down" src={urlImageProyect} />
+                </Link>
                 </div>
             </div>
 

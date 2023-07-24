@@ -10,7 +10,6 @@ import Transitions from "../components/Transitions";
 
 const Home = () => {
  
-
     return (
 
         <div className="p-5 bg-gradient-to-r from-blue-400 to-purple-400">

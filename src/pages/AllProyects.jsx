@@ -51,7 +51,7 @@ const AllProyects = () => {
                         urlgithub="https://github.com/raquecre/react-countries" />
 
                     <CardPorfolio nameProyect="Proyecto Rutas"
-
+                        urlProyect="https://miniexsreact.netlify.app/"
                         descriptionProyect=" Proyecto inicial para familiarizarse con el uso de react 
                     y las distintas formas de comunicación entre los componentes.
                     En cada página existe un ejercicio distinto donde aparecen distintas comunicaciones entre los componentes."

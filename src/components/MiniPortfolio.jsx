@@ -13,6 +13,7 @@ const MiniPorfolio = () => {
 
             <CardPorfolio
                 nameProyect=" Café de altura"
+                urlProyect="https://raquecre-cafealtura.netlify.app/"
                 descriptionProyect="Proyecto de comercio electrónico realizado con React.
          Los datos se extraían de una Api creada por nosotros mismos."
                 urlImageProyect={"https://i.imgur.com/3NmfrZK.png"}
