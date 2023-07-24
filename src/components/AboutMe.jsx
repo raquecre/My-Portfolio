@@ -7,7 +7,7 @@ const AboutMe = () => {
 
 
     return (
-        <div className=" w-[900px] bg-white  shadow-lg rounded-2xl pl-12 pr-12" >
+        <div className=" w-[900px] bg-white  shadow-lg rounded-2xl pl-12 pr-12 " >
                <Navbar/>
             <div className="flex justify-around">
              
@@ -24,8 +24,8 @@ const AboutMe = () => {
             <SocialNetworks/>
 
             <div className="flex gap-10 m-10">
-                <ButtonLink directionlink="/Portfolio" textshowLink="Portfolio"></ButtonLink>
-                <ButtonLink directionlink="/MyCv" textshowLink= "Sobre mí"></ButtonLink>
+                <ButtonLink directionlink="/AllProyects" textshowLink="Portfolio"></ButtonLink>
+                <ButtonLink directionlink="https://www.canva.com/design/DAFl07J6mKA/rOj3T_dV8VBVGcYpkFRI-A/view?utm_content=DAFl07J6mKA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" textshowLink= "Sobre mí"></ButtonLink>
             </div>
 
         </div>
