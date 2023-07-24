@@ -20,6 +20,7 @@ const CardPorfolio = (props) => {
                                 <GithubLogo nameProyect={nameProyect} urlgithub={urlgithub} />
                             </div>
                         </div>
+                        {/* //TODO aquí hay que añadir para poder poner un enlace y que esa info se pase por props */}
                         <div className="w-fit flex hover:underline hover:text-blue-700 hover:italic rounded-lg bg-gradient-to-r from-blue-400 to-purple-400 mt-8 p-1">
                             <div className="w-fit flex items-center rounded-lg bg-white bg-opacity-80 text-sm p-1">
                                 web

@@ -1,12 +1,11 @@
 import AboutMe from "../components/AboutMe";
-import ButtonLink from "../components/ButtonLink";
-import CardPorfolio from "../components/CardPorfolio";
+
 import Footer from "../components/Footer";
 import MiniPorfolio from "../components/MiniPortfolio";
-import Navbar from "../components/Navbar";
+
 import PersonComents from "../components/PersonCOmments";
 import Questions from "../components/Questions";
-import TitleCards from "../components/TitleCards";
+
 import Transitions from "../components/Transitions";
 
 const Home = (props) => {
