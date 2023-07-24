@@ -43,7 +43,7 @@ const AllProyects = () => {
                         urlImageProyect="https://i.imgur.com/kBz7hrg.png" />
 
                     <CardPorfolio nameProyect="Lista de países"
-
+                        urlProyect="https://countrieslist-raquecre.netlify.app/"
                         descriptionProyect="a través de la API donde se almacenan los 250 países,
                     mi objetivo ha sido sacar la información de todos ellos para crear una 'barra de navegación,
                     y, al hacer click sobre uno de los países, te mostrara información básica sobre ellos'"
@@ -57,6 +57,15 @@ const AllProyects = () => {
                     En cada página existe un ejercicio distinto donde aparecen distintas comunicaciones entre los componentes."
                         urlImageProyect="https://i.imgur.com/IEG4soE.png"
                         urlgithub="https://github.com/raquecre/all-mini-exs" />
+
+                    <CardPorfolio nameProyect="Contactos"
+                    urlProyect="https://contacts-raquecre.netlify.app/"
+                    descriptionProyect="Gestión de datos personales almacenados en una API. Se trata de aprender a gestionar
+                     cómo se pintas los datos en pantalla, y que estos sean mutables, siendo capaces de poder cambiar el orden de presentación, 
+                     tanto por orden alfabético como por puntación de popularidad."
+                     urlImageProyect="https://contacts-raquecre.netlify.app/"
+                     urlgithub="https://github.com/raquecre/react-proyect2-contacts"
+                    />
 
                     {/*  <CardPorfolio nameProyect="La Sabana"
                         descriptionProyect="Primer proyecto para familiarizarse con html y CSS"

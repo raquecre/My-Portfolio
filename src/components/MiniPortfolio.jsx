@@ -20,7 +20,7 @@ const MiniPorfolio = () => {
                 urlgithub="https://github.com/raquecre/React-Cafe-Altura" />
 
             <CardPorfolio nameProyect="Lista de países"
-
+                  urlProyect="https://countrieslist-raquecre.netlify.app/"
                 descriptionProyect="a través de la API donde se almacenan los 250 países,
                 mi objetivo ha sido sacar la información de todos ellos para crear una 'barra de navegación,
                 y, al hacer click sobre uno de los países, te mostrara información básica sobre ellos'"
