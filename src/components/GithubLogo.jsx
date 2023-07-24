@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-const GithubLogo = ({ nameProyect,urlgithub }) => {
+const GithubLogo = ({urlgithub }) => {
 
 
     return (

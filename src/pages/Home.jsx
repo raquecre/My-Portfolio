@@ -8,8 +8,8 @@ import Questions from "../components/Questions";
 
 import Transitions from "../components/Transitions";
 
-const Home = (props) => {
-    const pokedexImage = 'https://www.mundodeportivo.com/alfabeta/hero/2019/09/pokemon-pokedex-pikachu.jpg?width=1200&aspect_ratio=16:9';
+const Home = () => {
+ 
 
     return (
 

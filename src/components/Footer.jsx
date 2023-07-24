@@ -1,7 +1,6 @@
-import ButtonLink from "./ButtonLink"
-import LinkCVPDF from "./LinkCVPDF"
+
 import { Link } from "react-router-dom"
-import TitleCards from "./TitleCards"
+
 import GithubLogo from "./GithubLogo"
 import ProfileImg from "./ProfileImg"
 
@@ -13,22 +12,24 @@ const Footer = () => {
             <>
                 <p className="text-3xl font-bold text-transparent bg-gradient-to-r from-blue-400 to-purple-400  bg-clip-text "> Hablemos</p>
             </>
-            <div className=" flex gap-1 items-center hover:underline inline-block  font-bold text-transparent bg-gradient-to-r from-blue-400 to-purple-400  bg-clip-text hover:italic hover:underline pl-10 p-3 ">
-                <svg class="w- h-5"
-                    fill="none" stroke="url(#grad1)" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-                            <stop offset="0%" stopColor="#60A5FA" />
-                            <stop offset="100%" stopColor="#C084FC" />
-                        </linearGradient>
-                    </defs>
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 10-2.636 6.364M16.5 12V8.25">
-                    </path>
-                </svg>
+            <a href="mailto:raquecre@gmail.com">
 
-                <p >raquecre@gmail.com</p>
-            </div>
+                <div className=" flex gap-1 items-center hover:underline inline-block hover:text-blue-800 font-bold text-transparent bg-gradient-to-r from-blue-400 to-purple-400  bg-clip-text hover:italic hover:underline pl-10 p-3 ">
+                    <svg class="w- h-5"
+                        fill="none" stroke="url(#grad1)" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stopColor="#60A5FA" />
+                                <stop offset="100%" stopColor="#C084FC" />
+                            </linearGradient>
+                        </defs>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 10-2.636 6.364M16.5 12V8.25">
+                        </path>
+                    </svg>
+                    <p >raquecre@gmail.com</p>
+                </div>
+            </a>
             <div className="flex  justify-around ">
                 <div className="TEXTO flex flex-col justify-center ">
 
@@ -59,7 +60,7 @@ const Footer = () => {
                             <div className="flex items-center justify-start gap-10">
                                 <Link target="_blank" to={"https://www.canva.com/design/DAFl07J6mKA/rOj3T_dV8VBVGcYpkFRI-A/view?utm_content=DAFl07J6mKA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"}>
                                     <div className=" ">
-                                        <img className="w-20" src="https://i.imgur.com/XBmRQbx.png" />
+                                        <img className="w-20" alt="QrCV" src="https://i.imgur.com/XBmRQbx.png" />
                                         <p className="text-xs text-gray-600 ">CV</p>
                                     </div>
                                 </Link>
@@ -78,7 +79,7 @@ const Footer = () => {
                                 <Link target="_blank" to={"https://www.linkedin.com/in/raquecre/"}>
 
                                     <div className="">
-                                        <img className="w-20" src="https://i.imgur.com/ovuBIY5.png" />
+                                        <img className="w-20" alt="qrLinkedin" src="https://i.imgur.com/ovuBIY5.png" />
                                         <p className="text-xs text-gray-600 "> linkedin</p>
                                     </div>
                                 </Link>

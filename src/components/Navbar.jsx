@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import ButtonNav from "./ButtonNav";
-import ProfileImg from "./ProfileImg";
+
 
 const Navbar = () => {
 

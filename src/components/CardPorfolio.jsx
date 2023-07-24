@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
+
 import GithubLogo from "./GithubLogo";
-import LinkLogo from "./LinkLogo";
+
 const CardPorfolio = (props) => {
-    const { nameProyect, descriptionProyect, urlImageProyect, urlgithub, urlWebProyect } = props;
+    const { nameProyect, descriptionProyect, urlImageProyect, urlgithub, } = props;
 
     return (
 
@@ -33,7 +33,7 @@ const CardPorfolio = (props) => {
                 </div>
 
                 <div className="m-5 h-50 w-50 rounded-lg">
-                    <img className=" object-none rounded-3xl object-left-top hover:object-scale-down" src={urlImageProyect} />
+                    <img alt="imageProyect" className=" object-none rounded-3xl object-left-top hover:object-scale-down" src={urlImageProyect} />
                 </div>
             </div>
 
