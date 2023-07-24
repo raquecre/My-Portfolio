@@ -67,11 +67,6 @@ const AllProyects = () => {
                      urlgithub="https://github.com/raquecre/react-proyect2-contacts"
                     />
 
-                    {/*  <CardPorfolio nameProyect="La Sabana"
-                        descriptionProyect="Primer proyecto para familiarizarse con html y CSS"
-                        urlImageProyect="https://i.imgur.com/FfCV8cQ.png"
-                        urlgithub="https://github.com/raquecre/raSabana" /> */}
-
                     <Footer />
 
                 </Transitions>
