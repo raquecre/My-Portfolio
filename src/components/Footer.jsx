@@ -8,7 +8,7 @@ import ProfileImg from "./ProfileImg"
 const Footer = () => {
 
     return (
-        <div className="w-[750px] bg-white bg-opacity-90 shadow-lg rounded-lg mt-20 ml-6  gap-6 p-9 flex flex-col items-start  ">
+        <div className="w-[750px] bg-white bg-opacity-90 shadow-lg rounded-lg mt-20 ml-12  gap-6 p-9 flex flex-col items-start  ">
             <>
                 <p className="text-3xl font-bold text-transparent bg-gradient-to-r from-blue-400 to-purple-400  bg-clip-text "> Hablemos</p>
             </>
