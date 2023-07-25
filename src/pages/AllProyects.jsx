@@ -63,7 +63,7 @@ const AllProyects = () => {
                     descriptionProyect="Gestión de datos personales almacenados en una API. Se trata de aprender a gestionar
                      cómo se pintas los datos en pantalla, y que estos sean mutables, siendo capaces de poder cambiar el orden de presentación, 
                      tanto por orden alfabético como por puntación de popularidad."
-                     urlImageProyect="https://contacts-raquecre.netlify.app/"
+                     urlImageProyect="https://i.imgur.com/L1HucsI.png"
                      urlgithub="https://github.com/raquecre/react-proyect2-contacts"
                     />
 
