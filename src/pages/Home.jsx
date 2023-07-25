@@ -1,10 +1,9 @@
 import AboutMe from "../components/AboutMe";
-
 import Footer from "../components/Footer";
 import MiniPorfolio from "../components/MiniPortfolio";
 
-import PersonComents from "../components/PersonCOmments";
-import Questions from "../components/Questions";
+/* import PersonComents from "../components/PersonCOmments";*/
+ import Questions from "../components/Questions";
 
 import Transitions from "../components/Transitions";
 
@@ -19,7 +18,7 @@ const Home = () => {
                 <Transitions>
                     <Questions />
                     <MiniPorfolio />
-                    <PersonComents/>
+                   {/*  <PersonComents/> */}
                     <Footer />
                 </Transitions >
             </div>

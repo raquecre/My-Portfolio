@@ -12,9 +12,9 @@ const AboutMe = () => {
             <div className="flex justify-around">
              
                 <div className="flex flex-col justify-center ">
-                    <p className=" text-xl pt-5">Hola, soy Raquel</p>
+                    <p className=" text-xl pt-5">Hola, soy Raquel</p> 
                     <p className="font-semibold text-4xl hover:text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400  ">Front-end Developer</p>
-                    <div className="text-sm text-gray-600 mt-4 w-80" >Mi objetivo es conseguir una realidad con una <div className="hover:font-semibold"> accesibilidad universal </div> para todos.</div>
+                    <div className="text-sm text-gray-600 mt-4 w-80" >Mi objetivo es conseguir una realidad con una <span className="hover:font-semibold"> accesibilidad universal </span> para todos.</div>
                 </div>
                 <div className="w-1/4">
                     <ProfileImg />
