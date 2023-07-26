@@ -35,11 +35,11 @@ const Footer = () => {
 
                     <div className="flex justify-start mb-7 gap-10">
 
-                        <div className="w-fit flex hover:underline hover:text-blue-700 hover:italic rounded-lg bg-gradient-to-r from-blue-400 to-purple-400 m-1 p-1">
+                        <div className="w-fit flex hover:animate-bounce  hover:underline hover:text-blue-700 hover:italic rounded-lg bg-gradient-to-r from-blue-400 to-purple-400 m-1 p-1">
 
                             <Link target="_blank" to={"https://www.canva.com/design/DAFl07J6mKA/rOj3T_dV8VBVGcYpkFRI-A/view?utm_content=DAFl07J6mKA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"}>
                                 <div className="w-fit  rounded-lg bg-white bg-opacity-90 text-sm p-1 ">
-                                    <a className="flex items-center gap-1"
+                                    <a className="flex items-center gap-1 "
                                         href={CVRaquelCrespoPDF}
                                         download="CVRaquelCrespo-PDF-document"
                                         target="_blank"
@@ -62,11 +62,12 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex justify-start mb-7 m-2">
-                        <div div className="QR flex justify-around">
+                    <div className="flex justify-start mb-7 m-2 ">
+                        <div div className="QRCV flex justify-around ">
+                            
                             <div className="flex items-center justify-start gap-10">
                                 <Link target="_blank" to={"https://www.canva.com/design/DAFl07J6mKA/rOj3T_dV8VBVGcYpkFRI-A/view?utm_content=DAFl07J6mKA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"}>
-                                    <div className="transition duration-700 ease-in ">
+                                    <div className="transition duration-700 ease-in hover:underline hover:text-blue-700">
                                         <img className="w-20 " alt="QrCV" src="https://i.imgur.com/XBmRQbx.png" />
                                         <p className="text-xs text-gray-600 ">CV</p>
                                     </div>
@@ -85,9 +86,9 @@ const Footer = () => {
                             <div className="flex justify-around">
                                 <Link target="_blank" to={"https://www.linkedin.com/in/raquecre/"}>
 
-                                    <div className="">
+                                    <div className=" hover:underline hover:text-blue-700">
                                         <img className="w-20" alt="qrLinkedin" src="https://i.imgur.com/ovuBIY5.png" />
-                                        <p className="text-xs text-gray-600 "> linkedin</p>
+                                        <p className="text-xs text-gray-600  "> linkedin</p>
                                     </div>
                                 </Link>
 
